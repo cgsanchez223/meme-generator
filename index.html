@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Let's Make Some Memes</title>
+    <link rel="stylesheet" href="app.css">
+</head>
+<body>
+    <div class="memes">
+        <h1>Create Your Own Memes</h1>
+        <form id ="memeCreator">
+            <label for="topText">Top Text:</label>
+            <input type="text" id="topText" required>
+            <label for="imgMeme">Meme Image:</label>
+            <input type="url" id="imgMeme" required>
+            <label for="bottomText">Bottom Text:</label>
+            <input type="text" id="bottomText" required>
+            <br>
+            <button type="submit">Create Meme!</button>
+        </form> <!--Creating a form is the best solution for the project.-->
+    </div>
+
+    <div class="memeSpace" id="memesGoHere">
+<!--Space is going to be used for classes added in JS-->
+    </div>
+
+
+
+
+    <script src="app.js"></script>
+</body>
+</html>
